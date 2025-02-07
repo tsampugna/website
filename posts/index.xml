@@ -6,64 +6,18 @@
     <description>Recent content in Posts on A simple blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 15:38:25 -0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PLEEEEASE WORK!</title>
-      <link>/posts/testing-powershell-script/</link>
-      <pubDate>Fri, 07 Feb 2025 15:38:25 -0600</pubDate>
-      
-      <guid>/posts/testing-powershell-script/</guid>
-      <description>&lt;h1 id=&#34;pleeeease-work&#34;&gt;PLEEEEASE WORK!&lt;/h1&gt;
-&lt;p&gt;:)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250207153746.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;pleeeease-work&#34;&gt;PLEEEEASE WORK!&lt;/h1&gt;
-&lt;p&gt;:)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250207153746.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>JUST A TEST</title>
-      <link>/posts/just-a-test/</link>
-      <pubDate>Fri, 07 Feb 2025 01:30:45 -0600</pubDate>
-      
-      <guid>/posts/just-a-test/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;TESTING&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;123&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250207012259.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;will this image get resized?&lt;/p&gt;
-&lt;p&gt;fin.&lt;/p&gt;</description>
-      <content>&lt;blockquote&gt;
-&lt;p&gt;TESTING&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;123&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250207012259.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;will this image get resized?&lt;/p&gt;
-&lt;p&gt;fin.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Fri, 07 Feb 2025 16:59:38 -0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snatching Chucks Insane Blog Pipeline</title>
       <link>/posts/snatching-chucks-insane-blog-pipeline/</link>
-      <pubDate>Fri, 07 Feb 2025 00:40:16 -0600</pubDate>
+      <pubDate>Fri, 07 Feb 2025 16:59:38 -0600</pubDate>
       
       <guid>/posts/snatching-chucks-insane-blog-pipeline/</guid>
       <description>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;testing!!!&lt;/li&gt;
-&lt;li&gt;123&lt;/li&gt;
-&lt;li&gt;5678&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;</description>
       <content>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;testing!!!&lt;/li&gt;
-&lt;li&gt;123&lt;/li&gt;
-&lt;li&gt;5678&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
