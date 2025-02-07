@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>/</link>
-    <description>Recent content on Terminal</description>
+    <title>Notes on Terminal</title>
+    <link>/tags/notes/</link>
+    <description>Recent content in Notes on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 01:07:40 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Feb 2025 01:07:40 -0600</lastBuildDate><atom:link href="/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on upload process</title>
       <link>/posts/steps-to-upload-to-blog/</link>
@@ -41,31 +41,6 @@ git push origin blog-deploy:blog
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git subtree split --prefix public -b blog-deploy
 git push origin blog-deploy:blog
 &lt;/code&gt;&lt;/pre&gt;</content>
-    </item>
-    
-    <item>
-      <title>Snatching Chucks Insane Blog Pipeline</title>
-      <link>/posts/snatching-chucks-insane-blog-pipeline/</link>
-      <pubDate>Fri, 07 Feb 2025 00:40:16 -0600</pubDate>
-      
-      <guid>/posts/snatching-chucks-insane-blog-pipeline/</guid>
-      <description>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;testing!!!&lt;/li&gt;
-&lt;li&gt;123&lt;/li&gt;
-&lt;li&gt;5678&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;testing!!!&lt;/li&gt;
-&lt;li&gt;123&lt;/li&gt;
-&lt;li&gt;5678&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;
-</content>
     </item>
     
   </channel>
