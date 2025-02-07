@@ -17,7 +17,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
 
   # center theme with default width
   centerTheme = true
@@ -74,7 +74,7 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Blog"
+        logoText = "Sampugna Blog"
         logoHomeLink = "/"
 
       [languages.en.menu]
