@@ -189,19 +189,16 @@
         <div class="post-content">
           
             <p>Sync posts from Obsidian to Hugo content folder using Robocopy</p>
-<pre tabindex="0"><code>robocopy &#34;D:\Obsidian\Posts&#34; &#34;C:\Users\Tony\Documents\sampugnablog\content\posts&#34; *.md /mir
+<pre tabindex="0"><code class="language-copy" data-lang="copy">robocopy &#34;D:\Obsidian\Posts&#34; &#34;C:\Users\Tony\Documents\sampugnablog\content\posts&#34; *.md /mir
 </code></pre><p>Process Markdown files with Python script to handle image links</p>
-<pre tabindex="0"><code>python .\images.py
+<pre tabindex="0"><code class="language-copy" data-lang="copy">python .\images.py
 </code></pre><p>Build the Hugo site</p>
-<pre tabindex="0"><code>hugo
+<pre tabindex="0"><code class="language-copy" data-lang="copy">hugo
 </code></pre><p>Add changes to Git</p>
-<pre tabindex="0"><code>git add .
+<pre tabindex="0"><code class="language-copy" data-lang="copy">git add .
 </code></pre><p>Commit changes with a dynamic message</p>
-<pre tabindex="0"><code>git commit -m &#34;New Blog Post on + $(get-date -Format &#39;yyyy-MM-dd HH:mm:ss&#39;)&#34;
+<pre tabindex="0"><code class="language-copy" data-lang="copy">git commit -m &#34;New Blog Post on + $(get-date -Format &#39;yyyy-MM-dd HH:mm:ss&#39;)&#34;
 </code></pre><p>Push the public folder to the hostinger branch using subtree split and force push</p>
-<pre tabindex="0"><code>git subtree split --prefix public -b blog-deploy
-git push origin blog-deploy:blog
-</code></pre>
           
         </div>
 
