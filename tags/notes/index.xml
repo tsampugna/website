@@ -6,40 +6,38 @@
     <description>Recent content in Notes on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 01:07:40 -0600</lastBuildDate><atom:link href="/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Feb 2025 01:15:34 -0600</lastBuildDate><atom:link href="/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on upload process</title>
       <link>/posts/steps-to-upload-to-blog/</link>
-      <pubDate>Fri, 07 Feb 2025 01:07:40 -0600</pubDate>
+      <pubDate>Fri, 07 Feb 2025 01:15:34 -0600</pubDate>
       
       <guid>/posts/steps-to-upload-to-blog/</guid>
       <description>&lt;p&gt;Sync posts from Obsidian to Hugo content folder using Robocopy&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;robocopy &amp;#34;D:\Obsidian\Posts&amp;#34; &amp;#34;C:\Users\Tony\Documents\sampugnablog\content\posts&amp;#34; *.md /mir
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;robocopy &amp;#34;D:\Obsidian\Posts&amp;#34; &amp;#34;C:\Users\Tony\Documents\sampugnablog\content\posts&amp;#34; *.md /mir
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Process Markdown files with Python script to handle image links&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python .\images.py
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;python .\images.py
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Build the Hugo site&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;hugo
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Add changes to Git&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git add .
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;git add .
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Commit changes with a dynamic message&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git commit -m &amp;#34;New Blog Post on + $(get-date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Push the public folder to the hostinger branch using subtree split and force push&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git subtree split --prefix public -b blog-deploy
-git push origin blog-deploy:blog
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;git commit -m &amp;#34;New Blog Post on + $(get-date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Push the public folder to the hostinger branch using subtree split and force push&lt;/p&gt;</description>
       <content>&lt;p&gt;Sync posts from Obsidian to Hugo content folder using Robocopy&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;robocopy &amp;#34;D:\Obsidian\Posts&amp;#34; &amp;#34;C:\Users\Tony\Documents\sampugnablog\content\posts&amp;#34; *.md /mir
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;robocopy &amp;#34;D:\Obsidian\Posts&amp;#34; &amp;#34;C:\Users\Tony\Documents\sampugnablog\content\posts&amp;#34; *.md /mir
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Process Markdown files with Python script to handle image links&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python .\images.py
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;python .\images.py
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Build the Hugo site&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;hugo
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Add changes to Git&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git add .
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;git add .
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Commit changes with a dynamic message&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git commit -m &amp;#34;New Blog Post on + $(get-date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;git commit -m &amp;#34;New Blog Post on + $(get-date -Format &amp;#39;yyyy-MM-dd HH:mm:ss&amp;#39;)&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Push the public folder to the hostinger branch using subtree split and force push&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git subtree split --prefix public -b blog-deploy
-git push origin blog-deploy:blog
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;git subtree split --prefix public -b blog-deploy
+git push origin blog-deploy:blog --force
+git branch -D blog-deploy
 &lt;/code&gt;&lt;/pre&gt;</content>
     </item>
     
