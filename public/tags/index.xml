@@ -6,21 +6,11 @@
     <description>Recent content in Tags on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 01:15:34 -0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Notes</title>
-      <link>/tags/notes/</link>
-      <pubDate>Fri, 07 Feb 2025 01:15:34 -0600</pubDate>
-      
-      <guid>/tags/notes/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
+    <lastBuildDate>Fri, 07 Feb 2025 01:30:45 -0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>/tags/test/</link>
-      <pubDate>Fri, 07 Feb 2025 00:40:16 -0600</pubDate>
+      <pubDate>Fri, 07 Feb 2025 01:30:45 -0600</pubDate>
       
       <guid>/tags/test/</guid>
       <description></description>
