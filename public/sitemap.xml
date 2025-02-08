@@ -3,15 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-02-07T16:59:38-06:00</lastmod>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
+  </url><url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
+  </url><url>
+    <loc>/tags/kasm/</loc>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
+  </url><url>
+    <loc>/posts/kasm/</loc>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-02-07T16:59:38-06:00</lastmod>
-  </url><url>
-    <loc>/posts/snatching-chucks-insane-blog-pipeline/</loc>
-    <lastmod>2025-02-07T16:59:38-06:00</lastmod>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2025-02-08T12:35:48-06:00</lastmod>
+  </url><url>
+    <loc>/posts/snatching-chucks-insane-blog-pipeline/</loc>
     <lastmod>2025-02-07T16:59:38-06:00</lastmod>
   </url><url>
     <loc>/tags/test/</loc>
