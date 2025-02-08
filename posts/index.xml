@@ -6,7 +6,140 @@
     <description>Recent content in Posts on A simple blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 16:59:38 -0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 12:35:48 -0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kasm Workspaces</title>
+      <link>/posts/kasm/</link>
+      <pubDate>Sat, 08 Feb 2025 12:35:48 -0600</pubDate>
+      
+      <guid>/posts/kasm/</guid>
+      <description>&lt;h2 id=&#34;what-is-kasm-workspaces&#34;&gt;What is Kasm Workspaces?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a platform to stream your workspace directly to your web browser on any device and from any location.&lt;/li&gt;
+&lt;li&gt;Browser-based access to a secure and customized work environment. Work from any location on any device.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cloud-desktops&#34;&gt;Cloud Desktops&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows/Linux Desktops
+&lt;ul&gt;
+&lt;li&gt;Windows Enterprise deployments – including Microsoft Remote Desktop Servers (RDS), Azure Virtual Desktops (AVD), Fixed Servers running Remote Desktop Protocol (RDP) to Autoscaled Cloud (AWS, Azure, GCP, OCI) and On-Prem (VMWare ESXi and OpenStack).&lt;/li&gt;
+&lt;li&gt;Containerized Desktop Infrastructure® (CDI) running on a shared Linux kernel for lightning fast boot times, less compute, memory and disk space. Develop pipeline automation streamlines security patches, software updates and maximizes performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;web-isolation&#34;&gt;Web Isolation&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Kasm Cloud Browser
+&lt;ul&gt;
+&lt;li&gt;Zero-Trust Browser Isolation SaaS. Keep your web browsing secure, private, and non-attributable with no risk of compromising your endpoint. A fully-patched, disposable browser that is destroyed after each use, eliminating all traces of malware, tracking cookies, browser history, browser caching, and session fingerprints.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;digital-investigations&#34;&gt;Digital Investigations&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Kasm Cloud OSINT
+&lt;ul&gt;
+&lt;li&gt;Open Source Intelligence and Web Research SaaS. A zero-trust web intermediary providing security and anonymity while using research and intelligence collection tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;remote-access&#34;&gt;Remote Access&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminates the risk of direct attacks on the internal network. This removes the endpoint from your attack surface!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;enterprise-browsers&#34;&gt;Enterprise Browsers&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;The Browser is the Application! Being self-contained environment, there is no worries about Malware and Data loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;app-streaming&#34;&gt;App Streaming&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Access applications directly from your browser, no install, no maintenance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-cool-why-should-i-care-how-do-i-use-it&#34;&gt;&amp;hellip; Cool, why should I care? How do I use it?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a platform to stream your workspace directly to your web browser on any device and from any location!!&lt;/li&gt;
+&lt;li&gt;Instant network obscurification!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Server&lt;/li&gt;
+&lt;li&gt;5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Straight from their install docs, Kasm makes it really easy to get it installed and let you start playing with it&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;what-is-kasm-workspaces&#34;&gt;What is Kasm Workspaces?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a platform to stream your workspace directly to your web browser on any device and from any location.&lt;/li&gt;
+&lt;li&gt;Browser-based access to a secure and customized work environment. Work from any location on any device.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cloud-desktops&#34;&gt;Cloud Desktops&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows/Linux Desktops
+&lt;ul&gt;
+&lt;li&gt;Windows Enterprise deployments – including Microsoft Remote Desktop Servers (RDS), Azure Virtual Desktops (AVD), Fixed Servers running Remote Desktop Protocol (RDP) to Autoscaled Cloud (AWS, Azure, GCP, OCI) and On-Prem (VMWare ESXi and OpenStack).&lt;/li&gt;
+&lt;li&gt;Containerized Desktop Infrastructure® (CDI) running on a shared Linux kernel for lightning fast boot times, less compute, memory and disk space. Develop pipeline automation streamlines security patches, software updates and maximizes performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;web-isolation&#34;&gt;Web Isolation&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Kasm Cloud Browser
+&lt;ul&gt;
+&lt;li&gt;Zero-Trust Browser Isolation SaaS. Keep your web browsing secure, private, and non-attributable with no risk of compromising your endpoint. A fully-patched, disposable browser that is destroyed after each use, eliminating all traces of malware, tracking cookies, browser history, browser caching, and session fingerprints.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;digital-investigations&#34;&gt;Digital Investigations&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Kasm Cloud OSINT
+&lt;ul&gt;
+&lt;li&gt;Open Source Intelligence and Web Research SaaS. A zero-trust web intermediary providing security and anonymity while using research and intelligence collection tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;remote-access&#34;&gt;Remote Access&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminates the risk of direct attacks on the internal network. This removes the endpoint from your attack surface!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;enterprise-browsers&#34;&gt;Enterprise Browsers&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;The Browser is the Application! Being self-contained environment, there is no worries about Malware and Data loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;app-streaming&#34;&gt;App Streaming&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Access applications directly from your browser, no install, no maintenance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-cool-why-should-i-care-how-do-i-use-it&#34;&gt;&amp;hellip; Cool, why should I care? How do I use it?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a platform to stream your workspace directly to your web browser on any device and from any location!!&lt;/li&gt;
+&lt;li&gt;Instant network obscurification!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pre-requirements&#34;&gt;Pre requirements:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Server&lt;/li&gt;
+&lt;li&gt;5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Straight from their install docs, Kasm makes it really easy to get it installed and let you start playing with it&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Standard&#34; data-lang=&#34;Standard&#34;&gt;cd /tmp
+curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.16.1.98d6fa.tar.gz
+tar -xf kasm_release_1.16.1.98d6fa.tar.gz
+sudo bash kasm_release/install.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;thats-it&#34;&gt;THATS IT!&lt;/h1&gt;
+&lt;p&gt;You can navigate to the Web Application as soon as the script finishes!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250208121353.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I set up a Workspace using a couple of Images that Kasm supports out of the gate but you could really use ANY Docker image you want. The way Kasm does it is through registries. You can use the &amp;lsquo;Kasm supported&amp;rsquo; one or any 3rd party:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250208122453.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Once you have a workspace, you&amp;rsquo;re pretty much all set to try it out!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250208122659.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll open up a Debian Bookworm desktop&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250208122720.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;/images/Pasted-image-20250208122737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;boom-a-fresh-desktop-i-can-use-and-then-just-throw-away-when-im-done&#34;&gt;Boom, a fresh desktop I can use and then just throw away when I&amp;rsquo;m done!&lt;/h3&gt;
+&lt;p&gt;This reminds me a lot of Citrix DaaS - a product that you may see many businesses use to provide remote desktops as an alternative to having users log in with a VPN and managing BYOD. The Idea is that you can use ANY system and securely access the actual system you do stuff from, work, etc.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Snatching Chucks Insane Blog Pipeline</title>
       <link>/posts/snatching-chucks-insane-blog-pipeline/</link>

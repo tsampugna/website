@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A simple blog</title>
-    <link>/</link>
-    <description>Recent content on A simple blog</description>
+    <title>Docker on A simple blog</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in Docker on A simple blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Feb 2025 12:35:48 -0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 12:35:48 -0600</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kasm Workspaces</title>
       <link>/posts/kasm/</link>
@@ -137,36 +137,6 @@ sudo bash kasm_release/install.sh
 &lt;img src=&#34;/images/Pasted-image-20250208122737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;boom-a-fresh-desktop-i-can-use-and-then-just-throw-away-when-im-done&#34;&gt;Boom, a fresh desktop I can use and then just throw away when I&amp;rsquo;m done!&lt;/h3&gt;
 &lt;p&gt;This reminds me a lot of Citrix DaaS - a product that you may see many businesses use to provide remote desktops as an alternative to having users log in with a VPN and managing BYOD. The Idea is that you can use ANY system and securely access the actual system you do stuff from, work, etc.&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Snatching Chucks Insane Blog Pipeline</title>
-      <link>/posts/snatching-chucks-insane-blog-pipeline/</link>
-      <pubDate>Fri, 07 Feb 2025 16:59:38 -0600</pubDate>
-      
-      <guid>/posts/snatching-chucks-insane-blog-pipeline/</guid>
-      <description>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;YOINK! GOT YOUR BLOG&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/images/Pasted-image-20250206182242.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;shoutout to NetworkChuck over at &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;https://www.youtube.com/@NetworkChuck&lt;/a&gt;&lt;/p&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
-&lt;p&gt;My name is Tony and I&amp;rsquo;m the author of this simple blog. I made it to document and present cool ideas.&lt;/p&gt;
-&lt;p&gt;When I&amp;rsquo;m not designing, implementing, and maintaining secure and efficient network infrastructures, supporting virtualization and cloud networking, and contributing to ensure data protection, disaster recovery, and business continuity, I&amp;rsquo;m learning anything that interests me.&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
-&lt;p&gt;My name is Tony and I&amp;rsquo;m the author of this simple blog. I made it to document and present cool ideas.&lt;/p&gt;
-&lt;p&gt;When I&amp;rsquo;m not designing, implementing, and maintaining secure and efficient network infrastructures, supporting virtualization and cloud networking, and contributing to ensure data protection, disaster recovery, and business continuity, I&amp;rsquo;m learning anything that interests me.&lt;/p&gt;
 </content>
     </item>
     
