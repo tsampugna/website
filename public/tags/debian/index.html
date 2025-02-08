@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>Tags :: A simple blog</title>
+    <title>Debian :: A simple blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="/tags/" />
+<link rel="canonical" href="/tags/debian/" />
 
 
 
@@ -80,9 +80,9 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Tags">
+<meta property="og:title" content="Debian">
 <meta property="og:description" content="" />
-<meta property="og:url" content="/tags/" />
+<meta property="og:url" content="/tags/debian/" />
 <meta property="og:site_name" content="A simple blog" />
 
   <meta property="og:image" content="/og-image.png">
@@ -94,7 +94,7 @@
 
 
 
-  <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="A simple blog" />
+  <link href="/tags/debian/index.xml" rel="alternate" type="application/rss+xml" title="A simple blog" />
 
 
 
@@ -158,45 +158,66 @@
 
   <div class="content">
     
-  <div class="terms">
-    <h1>Tags</h1>
+  <h1>Posts for: #Debian</h1>
+  
+  <div class="posts">
     
-    <ul>
-      
-      
+      <article class="post on-list">
+        <h1 class="post-title">
+          <a href="/posts/install-docker-on-debian/">Docker Debian Install</a>
+        </h1>
+        <div class="post-meta"><time class="post-date">2025-02-08</time></div>
+
         
+          <span class="post-tags">
+            
+            #<a href="/tags/debian/">debian</a>&nbsp;
+            
+            #<a href="/tags/docker/">docker</a>&nbsp;
+            
+          </span>
         
+
         
-          <li>
-            <a class="terms-title" href="/tags/debian/">debian [1]</a>
-          </li>
+
+
+        <div class="post-content">
+          
+            <h4 id="add-dockers-official-gpg-key">Add Docker&rsquo;s official GPG key:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+</code></pre><h4 id="add-the-repository-to-apt-sources">Add the repository to Apt sources:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">echo \
+  &#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release &amp;&amp; echo &#34;$VERSION_CODENAME&#34;) stable&#34; | \
+  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+sudo apt-get update
+</code></pre><h4 id="install-latest-version">Install latest version</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre><h4 id="verify-that-the-installation-is-successful-by-running-thehello-worldimage">Verify that the installation is successful by running the <code>hello-world</code> image:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo docker run hello-world
+</code></pre><p>This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.</p>
+          
+        </div>
+
         
-      
+          <div>
+            <a class="read-more button inline" href="/posts/install-docker-on-debian/">Read more</a>
+          </div>
         
-        
-        
-          <li>
-            <a class="terms-title" href="/tags/docker/">docker [2]</a>
-          </li>
-        
-      
-        
-        
-        
-          <li>
-            <a class="terms-title" href="/tags/kasm/">kasm [1]</a>
-          </li>
-        
-      
-        
-        
-        
-          <li>
-            <a class="terms-title" href="/tags/test/">test [1]</a>
-          </li>
-        
-      
-    </ul>
+      </article>
+    
+
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+    
+  </div>
+</div>
+
   </div>
 
   </div>
