@@ -6,11 +6,21 @@
     <description>Recent content in Tags on A simple blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Feb 2025 12:35:48 -0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Feb 2025 14:39:25 -0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debian</title>
+      <link>/tags/debian/</link>
+      <pubDate>Sat, 08 Feb 2025 14:39:25 -0600</pubDate>
+      
+      <guid>/tags/debian/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>Docker</title>
       <link>/tags/docker/</link>
-      <pubDate>Sat, 08 Feb 2025 12:35:48 -0600</pubDate>
+      <pubDate>Sat, 08 Feb 2025 14:39:25 -0600</pubDate>
       
       <guid>/tags/docker/</guid>
       <description></description>

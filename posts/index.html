@@ -163,6 +163,54 @@
     
       <article class="post on-list">
         <h2 class="post-title">
+          <a href="/posts/install-docker-on-debian/">Docker Debian Install</a>
+        </h2>
+        <div class="post-meta"><time class="post-date">2025-02-08</time></div>
+
+        
+          <span class="post-tags">
+            
+            #<a href="/tags/debian/">debian</a>&nbsp;
+            
+            #<a href="/tags/docker/">docker</a>&nbsp;
+            
+          </span>
+        
+
+        
+
+
+        <div class="post-content">
+          
+            <h4 id="add-dockers-official-gpg-key">Add Docker&rsquo;s official GPG key:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+</code></pre><h4 id="add-the-repository-to-apt-sources">Add the repository to Apt sources:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">echo \
+  &#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release &amp;&amp; echo &#34;$VERSION_CODENAME&#34;) stable&#34; | \
+  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+sudo apt-get update
+</code></pre><h4 id="install-latest-version">Install latest version</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre><h4 id="verify-that-the-installation-is-successful-by-running-thehello-worldimage">Verify that the installation is successful by running the <code>hello-world</code> image:</h4>
+<pre tabindex="0"><code class="language-copy" data-lang="copy">sudo docker run hello-world
+</code></pre><p>This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.</p>
+          
+        </div>
+
+        
+           <div>
+            <a class="read-more button inline" href="/posts/install-docker-on-debian/">Read more</a>
+          </div>
+        
+      </article>
+    
+      <article class="post on-list">
+        <h2 class="post-title">
           <a href="/posts/kasm/">Kasm Workspaces</a>
         </h2>
         <div class="post-meta"><time class="post-date">2025-02-08</time></div>
