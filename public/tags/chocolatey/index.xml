@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chocolatey on A simple blog</title>
+    <link>/tags/chocolatey/</link>
+    <description>Recent content in Chocolatey on A simple blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Feb 2025 17:10:19 -0600</lastBuildDate><atom:link href="/tags/chocolatey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating ProGet with Chocolatey</title>
+      <link>/posts/integrating-proget-with-chocolatey-/</link>
+      <pubDate>Wed, 19 Feb 2025 17:10:19 -0600</pubDate>
+      
+      <guid>/posts/integrating-proget-with-chocolatey-/</guid>
+      <description>&lt;p&gt;If you want to use &lt;strong&gt;ProGet as a private Chocolatey repository&lt;/strong&gt;, follow these steps to &lt;strong&gt;host, push, and install Chocolatey packages&lt;/strong&gt; from ProGet.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-create-a-chocolatey-feed-in-proget&#34;&gt;&lt;strong&gt;1. Create a Chocolatey Feed in ProGet&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Log into your ProGet Web UI&lt;/strong&gt; (&lt;code&gt;http://localhost:81&lt;/code&gt; or your configured address).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go to&lt;/strong&gt; &lt;code&gt;Feeds&lt;/code&gt; → &lt;code&gt;Create New Feed&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select Feed Type:&lt;/strong&gt; &lt;code&gt;Chocolatey&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Give it a name&lt;/strong&gt;, e.g., &lt;code&gt;choco-packages&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configure permissions&lt;/strong&gt; (optional) to control who can push/install packages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Click &amp;ldquo;Create Feed&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-configure-chocolatey-to-use-proget&#34;&gt;&lt;strong&gt;2. Configure Chocolatey to Use ProGet&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Run this in &lt;strong&gt;PowerShell&lt;/strong&gt; (as Admin) to add ProGet as a Chocolatey source:&lt;/p&gt;</description>
+      <content>&lt;p&gt;If you want to use &lt;strong&gt;ProGet as a private Chocolatey repository&lt;/strong&gt;, follow these steps to &lt;strong&gt;host, push, and install Chocolatey packages&lt;/strong&gt; from ProGet.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-create-a-chocolatey-feed-in-proget&#34;&gt;&lt;strong&gt;1. Create a Chocolatey Feed in ProGet&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Log into your ProGet Web UI&lt;/strong&gt; (&lt;code&gt;http://localhost:81&lt;/code&gt; or your configured address).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go to&lt;/strong&gt; &lt;code&gt;Feeds&lt;/code&gt; → &lt;code&gt;Create New Feed&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Select Feed Type:&lt;/strong&gt; &lt;code&gt;Chocolatey&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Give it a name&lt;/strong&gt;, e.g., &lt;code&gt;choco-packages&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configure permissions&lt;/strong&gt; (optional) to control who can push/install packages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Click &amp;ldquo;Create Feed&amp;rdquo;&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-configure-chocolatey-to-use-proget&#34;&gt;&lt;strong&gt;2. Configure Chocolatey to Use ProGet&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Run this in &lt;strong&gt;PowerShell&lt;/strong&gt; (as Admin) to add ProGet as a Chocolatey source:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco source add -n=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ProGetChoco&amp;#34;&lt;/span&gt; -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://proget.local/chocolatey/choco-packages/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Replace &lt;code&gt;proget.local&lt;/code&gt; with your &lt;strong&gt;actual ProGet server URL&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Verify the source was added:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco source list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;3-upload-or-push-chocolatey-packages&#34;&gt;&lt;strong&gt;3. Upload or Push Chocolatey Packages&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;a-manually-upload-packages&#34;&gt;&lt;strong&gt;A. Manually Upload Packages&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Download a &lt;code&gt;.nupkg&lt;/code&gt; Chocolatey package from &lt;code&gt;https://community.chocolatey.org/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Go to your ProGet feed (&lt;code&gt;http://proget.local/chocolatey/choco-packages/&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Upload Package&lt;/strong&gt; → Select the &lt;code&gt;.nupkg&lt;/code&gt; file.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Upload&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;b-push-packages-using-api-key&#34;&gt;&lt;strong&gt;B. Push Packages Using API Key&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Generate an API key in ProGet:
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code&gt;User Profile&lt;/code&gt; → &lt;code&gt;API Keys&lt;/code&gt; → &lt;code&gt;Create API Key&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use this PowerShell command to push a package:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco push mypackage.nupkg --source http&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;//proget.local/chocolatey/choco-packages/ --api-key YOUR_API_KEY
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;4-install-chocolatey-packages-from-proget&#34;&gt;&lt;strong&gt;4. Install Chocolatey Packages from ProGet&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Now that your packages are hosted in ProGet, install them like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install mypackage -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://proget.local/chocolatey/choco-packages/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To make ProGet the &lt;strong&gt;default Chocolatey source&lt;/strong&gt;, remove the default Chocolatey community source:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco source remove -n=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;chocolatey&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;5-automate--secure&#34;&gt;&lt;strong&gt;5. Automate &amp;amp; Secure&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enable SSL (HTTPS)&lt;/strong&gt; in IIS for security.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Restrict Access&lt;/strong&gt; by requiring authentication for Chocolatey package downloads.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Retention Policies&lt;/strong&gt; to clean up old package versions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Now you have a &lt;strong&gt;private Chocolatey repository&lt;/strong&gt; using ProGet! 🎉&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
