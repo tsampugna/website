@@ -6,54 +6,11 @@
     <description>Recent content in Docker on A simple blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Feb 2025 14:39:25 -0600</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Docker Debian Install</title>
-      <link>/posts/install-docker-on-debian/</link>
-      <pubDate>Sat, 08 Feb 2025 14:39:25 -0600</pubDate>
-      
-      <guid>/posts/install-docker-on-debian/</guid>
-      <description>&lt;h4 id=&#34;add-dockers-official-gpg-key&#34;&gt;Add Docker&amp;rsquo;s official GPG key:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;add-the-repository-to-apt-sources&#34;&gt;Add the repository to Apt sources:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;echo \
-  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-  $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;#34;$VERSION_CODENAME&amp;#34;) stable&amp;#34; | \
-  sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
-sudo apt-get update
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;install-latest-version&#34;&gt;Install latest version&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;verify-that-the-installation-is-successful-by-running-thehello-worldimage&#34;&gt;Verify that the installation is successful by running the &lt;code&gt;hello-world&lt;/code&gt; image:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo docker run hello-world
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.&lt;/p&gt;</description>
-      <content>&lt;h4 id=&#34;add-dockers-official-gpg-key&#34;&gt;Add Docker&amp;rsquo;s official GPG key:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;add-the-repository-to-apt-sources&#34;&gt;Add the repository to Apt sources:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;echo \
-  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-  $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;#34;$VERSION_CODENAME&amp;#34;) stable&amp;#34; | \
-  sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
-sudo apt-get update
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;install-latest-version&#34;&gt;Install latest version&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;verify-that-the-installation-is-successful-by-running-thehello-worldimage&#34;&gt;Verify that the installation is successful by running the &lt;code&gt;hello-world&lt;/code&gt; image:&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo docker run hello-world
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Sun, 16 Feb 2025 13:47:45 -0600</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kasm Workspaces</title>
       <link>/posts/kasm/</link>
-      <pubDate>Sat, 08 Feb 2025 12:35:48 -0600</pubDate>
+      <pubDate>Sun, 16 Feb 2025 13:47:45 -0600</pubDate>
       
       <guid>/posts/kasm/</guid>
       <description>&lt;h2 id=&#34;what-is-kasm-workspaces&#34;&gt;What is Kasm Workspaces?&lt;/h2&gt;
@@ -180,6 +137,49 @@ sudo bash kasm_release/install.sh
 &lt;img src=&#34;/images/Pasted-image-20250208122737.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;boom-a-fresh-desktop-i-can-use-and-then-just-throw-away-when-im-done&#34;&gt;Boom, a fresh desktop I can use and then just throw away when I&amp;rsquo;m done!&lt;/h3&gt;
 &lt;p&gt;This reminds me a lot of Citrix DaaS - a product that you may see many businesses use to provide remote desktops as an alternative to having users log in with a VPN and managing BYOD. The Idea is that you can use ANY system and securely access the actual system you do stuff from, work, etc.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Docker Debian Install</title>
+      <link>/posts/install-docker-on-debian/</link>
+      <pubDate>Sat, 08 Feb 2025 14:39:25 -0600</pubDate>
+      
+      <guid>/posts/install-docker-on-debian/</guid>
+      <description>&lt;h4 id=&#34;add-dockers-official-gpg-key&#34;&gt;Add Docker&amp;rsquo;s official GPG key:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;add-the-repository-to-apt-sources&#34;&gt;Add the repository to Apt sources:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;echo \
+  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;#34;$VERSION_CODENAME&amp;#34;) stable&amp;#34; | \
+  sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;install-latest-version&#34;&gt;Install latest version&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;verify-that-the-installation-is-successful-by-running-thehello-worldimage&#34;&gt;Verify that the installation is successful by running the &lt;code&gt;hello-world&lt;/code&gt; image:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo docker run hello-world
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.&lt;/p&gt;</description>
+      <content>&lt;h4 id=&#34;add-dockers-official-gpg-key&#34;&gt;Add Docker&amp;rsquo;s official GPG key:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;add-the-repository-to-apt-sources&#34;&gt;Add the repository to Apt sources:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;echo \
+  &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;#34;$VERSION_CODENAME&amp;#34;) stable&amp;#34; | \
+  sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;install-latest-version&#34;&gt;Install latest version&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;verify-that-the-installation-is-successful-by-running-thehello-worldimage&#34;&gt;Verify that the installation is successful by running the &lt;code&gt;hello-world&lt;/code&gt; image:&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;sudo docker run hello-world
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This command downloads a test image and runs it in a container. When the container runs, it prints a confirmation message and exits.&lt;/p&gt;
 </content>
     </item>
     
