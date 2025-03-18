@@ -3,28 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-02-19T17:10:19-06:00</lastmod>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/tags/iot/</loc>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/tags/zigbee/</loc>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/posts/zigbee-101/</loc>
+    <lastmod>2025-03-18T11:43:45-05:00</lastmod>
+  </url><url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2025-03-18T11:42:17-05:00</lastmod>
+  </url><url>
+    <loc>/tags/kasm/</loc>
+    <lastmod>2025-03-18T11:42:17-05:00</lastmod>
+  </url><url>
+    <loc>/posts/kasm/</loc>
+    <lastmod>2025-03-18T11:42:17-05:00</lastmod>
   </url><url>
     <loc>/tags/chocolatey/</loc>
     <lastmod>2025-02-19T17:10:19-06:00</lastmod>
   </url><url>
     <loc>/posts/integrating-proget-with-chocolatey-/</loc>
     <lastmod>2025-02-19T17:10:19-06:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-02-19T17:10:19-06:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-02-19T17:10:19-06:00</lastmod>
-  </url><url>
-    <loc>/tags/docker/</loc>
-    <lastmod>2025-02-16T13:47:45-06:00</lastmod>
-  </url><url>
-    <loc>/tags/kasm/</loc>
-    <lastmod>2025-02-16T13:47:45-06:00</lastmod>
-  </url><url>
-    <loc>/posts/kasm/</loc>
-    <lastmod>2025-02-16T13:47:45-06:00</lastmod>
   </url><url>
     <loc>/tags/debian/</loc>
     <lastmod>2025-02-08T14:39:25-06:00</lastmod>
